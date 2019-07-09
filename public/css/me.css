@@ -1,0 +1,21 @@
+
+.nav-bac-c{ background-color: currentColor; }
+
+.title-c{color: rgba(242, 232, 232, 0.9);}
+
+body
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url({{ asset('image/mc-mickey1.jpg') }});
+
+}
+.card
+{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+.log-c{ color:#fff; }
